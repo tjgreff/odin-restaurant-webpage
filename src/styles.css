@@ -1,0 +1,53 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content {
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.btn {
+    margin: .25rem;
+    padding: .25rem;
+    width: 5rem;
+}
+
+.btn:active {
+    background-color: yellow;
+
+}
+
+.btn.active {
+    background-color: yellow;
+}
+
+.headerImg {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    border-color: red;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 24px 0 12px;
+    letter-spacing: 2px;
+}
+
+
+.menuHeader {
+    font-size: 2rem;
+    margin: 24px 0 12px;
+    letter-spacing: 2px;
+    color: maroon;
+}
