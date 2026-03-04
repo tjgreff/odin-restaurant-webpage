@@ -1,6 +1,7 @@
 import "./styles.css";
 import { buildHomeTab } from "./homeTab";
 import { buildMenu } from "./menuTab";
+import { buildContactTab } from "./contactTab";
 import { clearContent } from "./clearContent";
 
 
@@ -25,6 +26,7 @@ tabs.forEach(button => {
         }
         else if (event.target.dataset.tab === "contact") {
             clearContent();
+            buildContactTab();
         }
         else if (event.target.dataset.tab === "home") {
             clearContent();
